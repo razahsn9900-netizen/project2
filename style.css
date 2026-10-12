@@ -1,0 +1,15 @@
+button{
+    margin: 20px;
+    padding: 50px;
+    color: green;
+}
+
+#bird{
+    border: 20px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+
+.current{
+    border: 5px solid red;
+}

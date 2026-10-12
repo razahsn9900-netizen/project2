@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pig Game</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game">
+
+        <!-- =========================
+             PLAYER 1
+             ========================= -->
+
+        <section class="player player--0 player--active">
+
+            <h2 id="name--0">PLAYER 1</h2>
+
+            <!-- Total Score -->
+            <p class="score" id="score--0">0</p>
+
+            <!-- Current Score -->
+            <div class="current">
+                <p class="current-label">CURRENT</p>
+
+                <p class="current-score" id="current--0">
+                    0
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PLAYER 2
+             ========================= -->
+
+        <section class="player player--1">
+
+            <h2 id="name--1">PLAYER 2</h2>
+
+            <!-- Total Score -->
+            <p class="score" id="score--1">0</p>
+
+            <!-- Current Score -->
+            <div class="current">
+                <p class="current-label">CURRENT</p>
+
+                <p class="current-score" id="current--1">
+                    0
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             NEW GAME BUTTON
+             ========================= -->
+
+        <button class="btn btn--new">
+            🔄 NEW GAME
+        </button>
+
+
+        <!-- =========================
+             DICE
+             ========================= -->
+
+        <div class="dice hidden">
+            <span id="dice-dot-1"></span>
+            <span id="dice-dot-2"></span>
+            <span id="dice-dot-3"></span>
+            <span id="dice-dot-4"></span>
+            <span id="dice-dot-5"></span>
+            <span id="dice-dot-6"></span>
+            <span id="dice-dot-7"></span>
+            <span id="dice-dot-8"></span>
+            <span id="dice-dot-9"></span>
+        </div>
+
+
+        <!-- =========================
+             ROLL DICE BUTTON
+             ========================= -->
+
+        <button class="btn btn--roll">
+            🎲 ROLL DICE
+        </button>
+
+
+        <!-- =========================
+             HOLD BUTTON
+             ========================= -->
+
+        <button class="btn btn--hold">
+            📥 HOLD
+        </button>
+
+    </main>
+
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
